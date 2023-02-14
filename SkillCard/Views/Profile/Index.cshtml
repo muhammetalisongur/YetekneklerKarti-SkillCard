@@ -1,0 +1,40 @@
+﻿@using EntityLayer.Concrete
+@model List<Profil>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Profiliniz</h1>
+<br />
+<table class="table table-bordered">
+
+    <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Mesaj</th>
+        <th>Profil Resmi</th>
+        <th>Duzenle</th>
+        <th>Sil</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <th>@item.UserName</th>
+            <th>@item.SurName</th>
+            <th>@item.Message</th>
+            <th><img src="@item.Image" width="50" height="50" class="img-circle elevation-2" /></th>
+            <th><a href="/Profile/EditProfile/@item.ProfilID" class="btn btn-warning">Duzenle</a></th>
+            <td> <a href="/Profile/DeleteProfile/@item.ProfilID" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+
+</table>
+
+<br />
+<br />
+
+<a href="/Profile/AddProfile/" class="btn btn-success">Profil Ekle</a>

@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+@model List<Skill>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yetenekleriniz</h1>
+<br />
+<table class="table table-bordered">
+
+    <tr>
+        <th>Yetenek Adi</th>
+        <th>% Kac bildiginiz</th>
+        <th>Duzenle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr> 
+            <th>@item.SkillName</th>
+            <th>@item.SkillValue</th>
+            <th><a href="/Skill/EditSkill/@item.SkillID" class="btn btn-warning">Duzenle</a></th>
+            <td> <a href="/Skill/DeleteSkill/@item.SkillID" class="btn btn-danger">Sil</a></td>
+        </tr>
+
+    }
+
+</table>
+<a href="/Skill/AddSkill/" class="btn btn-primary">Yetenek Ekle</a>
+

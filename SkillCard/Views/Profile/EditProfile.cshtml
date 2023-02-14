@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.Profil
+
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Profili Duzenleme Sayfasi</h1>
+<br />
+
+@using (Html.BeginForm("EditProfile", "Profile", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+
+        @Html.TextBoxFor(x => x.ProfilID, new { @class = "form-control", @style = "display: contents" })
+
+
+        @Html.Label("Adiniz")
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.UserName, null, new { @class = "text-danger" })
+
+        <br /><br />
+        @Html.Label("Soyadiniz")
+        @Html.TextBoxFor(x => x.SurName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.SurName, null, new { @class = "text-danger" })
+
+        <br /><br />
+        @Html.Label("Mesajiniz")
+        @Html.TextAreaFor(x => x.Message, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Message, null, new { @class = "text-danger" })
+        <br /><br />
+
+        @Html.Label("Profil Resminiz")<br />
+        <input type="file" name="Images" />
+        @Html.ValidationMessageFor(x => x.Image, null, new { @class = "text-danger" })
+        <br />
+
+
+        <br />
+        <button class="btn btn-success">Guncelle</button>
+    </div>
+}
+
+
+
