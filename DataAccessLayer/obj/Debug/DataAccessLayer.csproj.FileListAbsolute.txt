@@ -108,4 +108,4 @@ D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.cspro
 D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.DeleteAdmin.resources
+D:\GitHub\source\repos\SkillCard\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.DeletedAdmin.resources
