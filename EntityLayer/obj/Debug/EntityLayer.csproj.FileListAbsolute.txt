@@ -46,3 +46,15 @@ D:\GitHub\source\repos\25.01.2023\SkillCard\EntityLayer\obj\Debug\EntityLayer.cs
 D:\GitHub\source\repos\25.01.2023\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 D:\GitHub\source\repos\25.01.2023\SkillCard\EntityLayer\obj\Debug\EntityLayer.dll
 D:\GitHub\source\repos\25.01.2023\SkillCard\EntityLayer\obj\Debug\EntityLayer.pdb
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityLayer.dll
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityFramework.dll
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityFramework.xml
+D:\GitHub\source\repos\SkillCard\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.dll
+D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.pdb

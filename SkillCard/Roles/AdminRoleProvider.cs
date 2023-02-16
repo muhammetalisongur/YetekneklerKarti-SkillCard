@@ -38,9 +38,7 @@ namespace Portfolio_Mvc.Roles
 
         public override string[] GetRolesForUser(string username)
         {
-            Context c = new Context();
-            var x = c.Admins.FirstOrDefault(y => y.AdminMail == username);
-            return new string[] { x.AdminMail };
+            throw new NotImplementedException();
         }
 
         public override string[] GetUsersInRole(string roleName)

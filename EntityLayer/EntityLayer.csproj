@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete\Admin.cs" />
     <Compile Include="Concrete\Profil.cs" />
     <Compile Include="Concrete\Skill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

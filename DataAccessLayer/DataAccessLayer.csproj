@@ -86,6 +86,10 @@
     <Compile Include="Migrations\202302010652371_mig_profil_image.designer.cs">
       <DependentUpon>202302010652371_mig_profil_image.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302160843514_DeleteAdmin.cs" />
+    <Compile Include="Migrations\202302160843514_DeleteAdmin.designer.cs">
+      <DependentUpon>202302160843514_DeleteAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -121,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302010652371_mig_profil_image.resx">
       <DependentUpon>202302010652371_mig_profil_image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302160843514_DeleteAdmin.resx">
+      <DependentUpon>202302160843514_DeleteAdmin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,5 +1,9 @@
-﻿
+﻿@using EntityLayer.Concrete;
+@model dynamic
+
+
 @{
+
 
 
     Layout = null;
@@ -8,119 +12,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Yetenek Karti Admin Panel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>AdminLTE 3 | Dashboard 3</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="/ATemplatesFolder/Admin/plugins/fontawesome-free/css/all.min.css">
-    <!-- IonIcons -->
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="/ATemplatesFolder/Admin/dist/css/adminlte.min.css">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+<body>
 
-<body class="hold-transition sidebar-mini">
-    <div class="wrapper">
-        <!-- Navbar -->
-        <!-- /.navbar -->
-        <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="/ATemplatesFolder/Admin/index3.html" class="brand-link">
-                <img src="/ATemplatesFolder/Admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-                     style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
-            </a>
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar user panel (optional) -->
-
-
-
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="image">
-                        <img src="/ATemplatesFolder/Admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                    </div>
-                    <div class="info">
-                        <a href="#" class="d-block">
-                            Muhammet Ali Songur
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->
-
-
-                        <li class="nav-item has-treeview">
-                            <a href="/Profile/Index/" class="nav-link">
-                                <i class="far fa-address-card"></i>
-                                <p>
-                                    Profilim
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a href="/Skill/Index/" class="nav-link">
-                                <i class="fa fa-bar-chart	"></i>
-                                <p>
-                                    Yetenekler
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a href="/Home/Index/" class="nav-link">
-                                <i class="fa fa-user-circle	"></i>
-                                <p>
-                                    Siteye Git
-                                </p>
-                            </a>
-
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a href="/Login/Index" class="nav-link">
-                                <i class="fa fa-toggle-left	"></i>
-                                <p>
-                                    Çıkış yap
-                                </p>
-                            </a>
-
-                        </li>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    @foreach (var item in Model.Profiles)
+                    {
+                        @item.UserName
+                    }
+                    <span />
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
                     </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
-            </div>
-            <!-- /.sidebar -->
-        </aside>
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            <!-- Main content -->
-            <div class="content">
-                @RenderBody()
-                <!-- /.container-fluid -->
-            </div>
-            <!-- /.content -->
+                </li>
+                <li><a href="#">Page 2</a></li>
+            </ul>
+
         </div>
-        <!-- /.content-wrapper -->
+    </nav>
+
+    <div class="container">
+        @RenderBody()
     </div>
-    <!-- ./wrapper -->
-    <!-- REQUIRED SCRIPTS -->
-    <!-- jQuery -->
-    <script src="/ATemplatesFolder/Admin/plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="/ATemplatesFolder/Admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE -->
-    <script src="/ATemplatesFolder/Admin/dist/js/adminlte.js"></script>
-    <!-- OPTIONAL SCRIPTS -->
-    <script src="/ATemplatesFolder/Admin/plugins/chart.js/Chart.min.js"></script>
-    <script src="/ATemplatesFolder/Admin/dist/js/demo.js"></script>
-    <script src="/ATemplatesFolder/Admin/dist/js/pages/dashboard3.js"></script>
+
 </body>
 </html>
