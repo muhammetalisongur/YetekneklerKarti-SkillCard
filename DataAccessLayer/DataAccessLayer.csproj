@@ -90,6 +90,10 @@
     <Compile Include="Migrations\202302161025127_DeletedAdmin.designer.cs">
       <DependentUpon>202302161025127_DeletedAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302180301408_deleteadmin.cs" />
+    <Compile Include="Migrations\202302180301408_deleteadmin.designer.cs">
+      <DependentUpon>202302180301408_deleteadmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -128,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302161025127_DeletedAdmin.resx">
       <DependentUpon>202302161025127_DeletedAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302180301408_deleteadmin.resx">
+      <DependentUpon>202302180301408_deleteadmin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

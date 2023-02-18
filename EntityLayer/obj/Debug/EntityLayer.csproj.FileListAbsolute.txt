@@ -58,3 +58,15 @@ D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCo
 D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.dll
 D:\GitHub\source\repos\SkillCard\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\MAS\Documents\GitHub\SkillCard\EntityLayer\obj\Debug\EntityLayer.pdb
