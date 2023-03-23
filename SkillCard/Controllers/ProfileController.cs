@@ -29,6 +29,7 @@ namespace Portfolio_Mvc.Controllers
         {
 
             var profilevalues = profileManager.GetList();
+            
             return View(profilevalues);
         }
         [HttpGet]
