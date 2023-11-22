@@ -2,6 +2,7 @@
 
 Kişisel yetenekleri gösteren yetenek kartı web uygulaması
 Yeteneklerin ve Profilin eklenmesi için admin panel
+</br></br>
 Not: WebConfigden connectionString değiştirmeyi unutmayın sonra uygulama çalıştırdığınız zaman migration otomatik database yükleyecektir.
 
 ### Anasayfa
